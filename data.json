@@ -1,0 +1,15 @@
+{
+    "all_game_data": [{
+            "title": "Beeg's Quest",
+            "output": "A long adventure awaits you, Beegs. You have come far and wide, braving many battles and conquering many enemies. All of it leads to your greatest adventure yet. Good luck.",
+            "choice_one": "Let's go",
+            "choice_two": "I ain't scared of no bitches!"
+        },
+        {
+            "title": "Test 2",
+            "output": "Lorem 2",
+            "choice_one": "choice_one 2",
+            "choice_two": "choice_two 2"
+        }
+    ]
+}
