@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour {
     private GameData gameData;
     private int currentNode = 0;
     private int input = 0;
+    public GameObject gameImage;
     public bool gameEnded = false;
 
     // Start is called before the first frame update
@@ -19,7 +20,7 @@ public class GameManager : MonoBehaviour {
     void Update () {
         GetPlayerInput ();
         CalculateNextNode (currentNode, input);
-        PlayGame (currentNode);
+        PlayGame ();
     }
 
     void SetTitle (string new_title) {
@@ -45,6 +46,7 @@ public class GameManager : MonoBehaviour {
         SetTitle (new_game_area.title);
         SetOutput (new_game_area.output);
         SetChoices (new_game_area.choice_one, new_game_area.choice_two);
+
     }
 
     void LoadGameData () {
@@ -156,8 +158,17 @@ public class GameManager : MonoBehaviour {
         }
     }
 
-    void PlayGame (int currentNode) {
+    void SetImage () {
+        string new_image_name = "Image " + currentNode;
+        GameObject new_sprite_object = GameObject.Find (new_image_name);
+        Sprite new_sprite = new_sprite_object.GetComponent<Image> ().sprite;
+        gameImage.GetComponent<Image> ().sprite = new_sprite;
+        // currentSprite = new_sprite;
+    }
+
+    void PlayGame () {
         SetAllGameOutput (gameData.all_game_data[currentNode]);
+        SetImage ();
     }
 
     [System.Serializable]
