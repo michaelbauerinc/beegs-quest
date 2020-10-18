@@ -9,8 +9,9 @@ public class GameManager : MonoBehaviour {
     private int currentNode = 0;
     private int input = 0;
     public GameObject gameImage;
-    public bool gameEnded = false;
-
+    public bool gamePlaying = true;
+    private bool gameOver = false;
+    public Sprite[] all_images;
     // Start is called before the first frame update
     void Start () {
         LoadGameData ();
@@ -18,9 +19,17 @@ public class GameManager : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-        GetPlayerInput ();
-        CalculateNextNode (currentNode, input);
-        PlayGame ();
+
+        if (gamePlaying) {
+            GetPlayerInput ();
+            CalculateNextNode (currentNode, input);
+            PlayGame ();
+
+        } else {
+            if (gameOver) {
+                ResetGame ();
+            }
+        }
     }
 
     void SetTitle (string new_title) {
@@ -101,10 +110,8 @@ public class GameManager : MonoBehaviour {
                 }
                 break;
             case 3:
-                if (input == 1) {
-                    currentNode = 7;
-                } else if (input == 2) {
-                    currentNode = 4;
+                if (input > 0) {
+                    ResetGame ();
                 }
                 break;
             case 4:
@@ -116,54 +123,65 @@ public class GameManager : MonoBehaviour {
                 break;
             case 5:
                 if (input == 1) {
-                    currentNode = 8;
-                } else if (input == 2) {
                     currentNode = 9;
+                } else if (input == 2) {
+                    currentNode = 10;
                 }
                 break;
             case 6:
-                if (input == 1) {
-                    currentNode = 5;
-                } else if (input == 2) {
-                    currentNode = 9;
+                if (input > 0) {
+                    ResetGame ();
                 }
                 break;
             case 7:
-                if (input == 1) {
-                    currentNode = 10;
-                } else if (input == 2) {
-                    currentNode = 8;
+                if (input > 0) {
+                    ResetGame ();
                 }
                 break;
             case 8:
-                if (input == 1) {
-                    currentNode = 10;
-                } else if (input == 2) {
-                    currentNode = 10;
+                if (input > 0) {
+                    ResetGame ();
                 }
                 break;
             case 9:
                 if (input == 1) {
-                    currentNode = 8;
+                    currentNode = 11;
                 } else if (input == 2) {
-                    currentNode = 10;
+                    currentNode = 12;
                 }
                 break;
             case 10:
-                gameEnded = true;
+                if (input > 0) {
+                    ResetGame ();
+                }
                 break;
-
+            case 11:
+                if (input > 0) {
+                    ResetGame ();
+                }
+                break;
+            case 12:
+                if (input > 0) {
+                    currentNode = 13;
+                }
+                break;
+            case 13:
+                if (input > 0) {
+                    currentNode = 14;
+                }
+                break;
             default:
                 break;
         }
     }
 
     void SetImage () {
-        string new_image_name = "Image " + currentNode;
-        GameObject new_sprite_object = GameObject.Find (new_image_name);
-        Sprite new_sprite = new_sprite_object.GetComponent<Image> ().sprite;
-        gameImage.GetComponent<Image> ().sprite = new_sprite;
-        // currentSprite = new_sprite;
+        gameImage.GetComponent<Image> ().sprite = all_images[currentNode];
+    }
+
+    void ResetGame () {
+        currentNode = 0;
+        PlayGame ();
     }
 
     void PlayGame () {

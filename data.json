@@ -1,70 +1,95 @@
 {
     "all_game_data": [
         {
-            "title": "Node 0",
-            "output": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "choice_one": "choice one here",
-            "choice_two": "choice two here"
+            "title": "Welcome To Beegs Quest",
+            "output": "It was like any other day. Beegs finds himself playing smash ultimate and rekking all the scrubs like usual. All of a sudden, the room begins to shake and Beegs palms begin to sweat. All of a sudden, his feet are swept out beneath him and he falls face first into the switch. As he stands up, he looks around and realizes: he's smack dab in the middle of the smash bros universe. When the shock wears off, he decides to:",
+            "choice_one": "Look for supplies. Gotta think reasonably.",
+            "choice_two": "Look for Cloud. Cloud is always the answer."
         },
         {
-            "title": "Node 1",
-            "output": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "choice_one": "choice one here",
-            "choice_two": "choice two here"
+            "title": "The Mystery Box",
+            "output": "As any reasonable person might do, Beegs sets off to to find some supplies. Not too long after wandering the path, he comes across a cardboard box.",
+            "choice_one": "Open the box, there may be supplies.",
+            "choice_two": "Ignore the box, box looks kinda sus tbh."
+
         },
         {
-            "title": "Node 2",
-            "output": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "choice_one": "choice one here",
-            "choice_two": "choice two here"
+            "title": "A Familiar Beak",
+            "output": "As Beegs begin wandering the area looking for signs of his spiky haired hero, he comes upon a blue feathered bird, talking on his communicator to a holographic fox. Beegs could easily get away from him without being noticed, but maybe this bird has information about Cloud's whereabouts. After a moment of thought, Beegs:",
+            "choice_one": "Approaches him, finding Cloud is always the answer, no matter the cost.",
+            "choice_two": "Walk past Falco, don't want to interupt what may be an important conversation."
         },
         {
-            "title": "Node 3",
-            "output": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "choice_one": "choice one here",
-            "choice_two": "choice two here"
+            "title": "There's A Snake In My Boot",
+            "output": "As Beegs lifts the box. Out of sheer surprise, Solid Snake throws down a flashbang. Thinking Beegs might be a threat, Snake activates his final smash, tossing up a flare grenade. The last words Beegs ever heard: \"It's showtime!\"",
+            "choice_one": "Start over fresh.",
+            "choice_two": "Start over ready for Snake this time."
         },
         {
-            "title": "Node 4",
-            "output": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "choice_one": "choice one here",
-            "choice_two": "choice two here"
+            "title": "Smashville",
+            "output": "After rekking tons of baddies, Beegs is starting to feel himself. His efforts are rewarded when a clearing emerges and a town is before him. Logically, Beegs concludes it must be Smashville. He heads to the local market where he runs into a familiar figure. It takes but a moment to realize that he has run into his own Mii. That could only mean:",
+            "choice_one": "He needs to ask him to team up. After all, two Beegs is always better than one.",
+            "choice_two": "There can only be one - fight Beegs Mii to the death."
         },
         {
-            "title": "Node 5",
-            "output": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "choice_one": "choice one here",
-            "choice_two": "choice two here"
+            "title": "Falco Lombardi at your service",
+            "output": "Beegs approaches the bird directly, showing little fear for what happens. The only words he can think to say: \"Do you know where Cloud is?\" Quickly looking up at him, Falco explains that a Large dragon has been brought into the Smash Universe unexpectedly, and has gone after the strongest of heros, Cloud included. He then asks if Beegs would like to join the resistence and fight to take the Universe back. ",
+            "choice_one": "Absolutely, there's no better way to Reach Cloud than with the Smash Universe teaming up.",
+            "choice_two": "Welllll, that would kinda be meddling in affairs that arent of our world."
         },
         {
-            "title": "Node 6",
-            "output": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "choice_one": "choice one here",
-            "choice_two": "choice two here"
+            "title": "The Pillars are real!",
+            "output": "Beegs quietly walks past the blue bird, hoping to continue on his quest to find Cloud. Within seconds of passing, Falco leaps into action, confusing Beegs as a spy listening into the conversation. After a long pillar combo, Falco spikes Beegs into the ground, permanently taking his only stock.",
+            "choice_one": "Start over fresh",
+            "choice_two": "Reset with their conversation in mind"
         },
         {
-            "title": "Node 7",
-            "output": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "choice_one": "choice one here",
-            "choice_two": "choice two here"
+            "title": "Its-ah Mii",
+            "output": "Beegs should have known. Being as competitive as he is, of course his own Mii didn't want to team up. In his greatest moment of weakness, his own Mii defeats him.",
+            "choice_one": "Start over fresh.",
+            "choice_two": "Try to outsmart your Mii next time."
         },
         {
-            "title": "Node 8",
-            "output": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "choice_one": "choice one here",
-            "choice_two": "choice two here"
+            "title": "Victory?",
+            "output": "After a thrilling battle, Beegs finally comes out victorious against his own Mii. As Beegs begins to leave the town, he feels strange. His own save data has been corrupted by killing his own Mii and he ceases to exist. Was the victory even worth it?",
+            "choice_one": "Start over fresh",
+            "choice_two": "Start over with an intention to avoid conflict."
         },
         {
-            "title": "Node 9",
-            "output": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "choice_one": "choice one here",
-            "choice_two": "choice two here"
+            "title": "Viva La Resistance",
+            "output": "Falco leads Beegs to the hideout of the resistance, seeing many familiar faces all in one place is like a fever dream. and instead of fighting one another, they're actually teaming up. the plan is coming together, and as a collective group, everybody approaches the gates to the Dragons Lair. The obvious course of action is: ",
+            "choice_one": " Stay with the group, they've been planning this for a very long time, and you dont want to be the one to ruin everything.",
+            "choice_two": "Charge in blindly screaming at the top of your lungs \"FOR CLOUD!\""
         },
         {
-            "title": "Node 10",
-            "output": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "choice_one": "choice one here",
-            "choice_two": "choice two here"
+            "title": "Piece of Cake",
+            "output": "Beegs politely decline the offer to help out the group. He just want to survive and meeting Cloud is just a bonus. However, Falco doesn't see things this way, and as Beegs begin to walk away, the arwings are called in to take down the threat that is against the resistance. There's no longer even a trace of Proof that Beegs ever entered this world.",
+            "choice_one": "Start over fresh",
+            "choice_two": "Restart knowing your only choice"
+        },
+        {
+            "title": "Birds of a Feather Die Together",
+            "output": "As the group walks into the Dragon's Holding Cells, you see Cloud among the other prisoners, yet before anybody can even make it to the dragon, a massive stream of flames fills the room, as the Dragon was expecting a rebellion at some point. Not a single creature survived the blast. Just because everyone followed the plan, it doesn't mean the plan was any good.",
+            "choice_one": "Start over fresh",
+            "choice_two": "I know what I have to do..."
+        },
+        {
+            "title": "FOR CLOUD",
+            "output": "Beegs lets all rational thoughts and fear flee his mind as he charges in blindly, having but a small sword at his disposal. Forgetting any sense of a plan or who he is with, Beegs runs straight into the Dragon's room, catching him off guard. The dragon was not suspecting anybody so soon, and seems to be finishing a meal. A small familiar voice can be heard in the distance. \"Use the Buster Sword!\" With hardly a moment to think: ",
+            "choice_one": "Grab the Buster Sword!",
+            "choice_two": "Grab the Buster Sweord already!!!!"
+        },
+        {
+            "title": "CLoud is Always the Answer",
+            "output": "Beegs reaches for the sword at his feet. As he bends over, a lustful expression overtakes the Dragon's face. Beegs is instantly swept from his feet, as the Dragon roars a mightly roar. The Dragon penetrates his butthole, as he begins to push against his force. Beegs forgets why he came here in the first place as he is filled with the Dargon's love. The rest of the resistance comes in just in time to see Beegs' body be thrown down to the ground, Dragon juices pouring from his body. Cloud appears from the crowd, using the Buster Sword to slay the Dragon once and for all. Beegs' fat cheeks saved the Smash Universe, but cost him his own life. The last words Beegs would utter as he looked up at his idol: \"For Cloud. Cloud is Always...the answer.\"",
+            "choice_one": "Credits",
+            "choice_two": "Credits"
+        },
+        {
+            "title": "Credits",
+            "output": "Did we really make a game just to troll you? Did we make a fake person up just to keep you hooked? Has covid really gotten us to this point for education? The answer to all the questions is a resounding yes. Long Live Long Schlamdi.",
+            "choice_one": "Sclamdi's Bois",
+            "choice_two": "Ojanya & Drum"
         }
     ]
 }

@@ -1,1 +1,4 @@
-sceneSetups: []
+sceneSetups:
+- path: Assets/beegs_quest.unity
+  isLoaded: 1
+  isActive: 1
